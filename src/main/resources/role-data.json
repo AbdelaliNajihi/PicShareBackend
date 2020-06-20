@@ -1,0 +1,12 @@
+[
+	{
+		"_class": "com.pic.share.model.Role",
+		"name": "ADMIN",
+		"description": "Description Of Admin Role"
+	},
+	{
+		"_class": "com.pic.share.model.Role",
+		"name": "USER",
+		"description": "Description Of User Role"
+	}
+]

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>CountUsersPosts</title>
+</head>
+<body>
+	<h1 style="font-family: monospace;">Hi, This is the daily statistics :</h1>
+	<table>
+		<thead>
+			<tr>
+				<th style="font-family: monospace;">Users :</th>
+				<th style="font-family: monospace;">Online Users :</th>
+				<th style="font-family: monospace;">Posts :</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td th:text="${users}"></td>
+				<td th:text="${onlineUsers}"></td>
+				<td th:text="${posts}"></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
